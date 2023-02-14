@@ -1,0 +1,8 @@
+[package]
+name = "rust_gdal_docker"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+gdal = { version = "0.14.0", features = ["bindgen"] }
